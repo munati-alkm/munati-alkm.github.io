@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>MUNATI: Contacto</title>
+      <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/formulario.css">
+      <link rel="stylesheet" href="../css/styles.css">
+      <link rel="stylesheet" href="../css/preseas.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!-- FontAwesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-custom" id="navbar">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preseas.html">PRESEAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ubicacion.html">UBICACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="directorio.html">DIRECTORIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+       
+        <!-- Botón para volver al inicio -->
+        <div id="div-totop" class="cmn-divfloat">
+            <a href="#" class="btn btn-primary cmn-btncircle">
+            <i class="fa fa-arrow-up"></i>
+            </a>
+        </div>
+        
+        <!-- Header -->
+        <div class="text-center py-5 header animate__animated animate__fadeInLeft">
+            <img src="../images/logomunati.png" alt="Logo del Museo" class="img-fluid"> 
+            <h1>MUSEO NACIONAL DEL TÍTERE</h1>
+            <p class="text-muted">MUNATI - HUAMANTLA - TLAXCALA - MÉXICO</p>
+        </div>
+        
+        <!-- Contenedor para el Toast -->
+        <div class="position-fixed top-0 end-0 p-3" style="z-index: 11">
+            <div id="festivalToast" class="toast align-items-center text-white border-0 animate__animated animate__bounceInRight" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+            <div class="toast-body">
+            Contáctanos para generar una reservación o planear un evento. Nos comunicaremos contigo lo más pronto posible.
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS y Popper -->
+        <script>
+        // Mostrar el Toast automáticamente después de  segundos
+        document.addEventListener("DOMContentLoaded", function () {
+        const toastElement = document.getElementById('festivalToast');
+        const toast = new bootstrap.Toast(toastElement);
+        setTimeout(() => {
+        toast.show();
+        }, 2000);
+        });
+        </script>
+        
+        <!-- Espacio para Header -->
+        <!-- Espacio para Contenido de Preseas -->
+        <section id="formulario">
+            <h2>FORMULARIO DE CONTACTO</h2>
+        </section>
+            
+        <section id="cajas">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="requeridos">Nombre:</label>
+    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+<div class="mb-3">
+    <label for="exampleInputEmail1" class="requeridos">Correo electrónico:</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault04" class="requeridos">Lugar de donde nos escribes</label>
+    <select class="form-select" id="validationDefault04" required>
+      <option selected disabled value=""></option>
+        <option>GUERRERO</option>
+        <option>HIDALGO</option>
+        <option>JALISCO</option>
+        <option>CIUDAD DE MÉXICO</option>
+        <option>MORELOS</option>
+        <option>NAYARIT</option>
+        <option>NUEVO LEÓN</option>
+        <option>OXACA</option>
+        <option>PUEBLA</option>
+        <option>QUERÉTARO</option>
+        <option>QUINTANA ROO</option>
+        <option>SAN LUIS POTOSÍ</option>
+        <option>SINALOA</option>
+        <option>SONORA</option>
+        <option>TABASCO</option>
+        <option>TAMAULIPAS</option>
+        <option>TLAXCALA</option>
+        <option>VERACRUZ</option>
+        <option>YUCATÁN</option>
+        <option>TAMAULIPAS</option>
+        <option>ZACATECAS</option>
+        </select>
+            </div>          
+<div class="mb-3">
+    <label for="exampleInputEmail1" class="requeridos">Mensaje:</label>
+    <input type="text" class="form-control" id="mensaje" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  
+        <br>
+  <button type="reset" class="btn btn-primary">Limpiar</button>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>   
+        </section>    
+
+        
+        <!-- Sección Redes Sociales -->
+        <div class="container-fluid rr">
+            <h2>NUESTRAS REDES SOCIALES</h2>
+            <div class="row comun">
+                <div class="col-6">
+                    <a href="https://www.facebook.com/museonacionaldeltitere/?locale=es_LA" target="_blank">
+    		          <img src="../images/fb.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			             FACEBOOK
+  		            </a><br>
+                    <a href="https://www.instagram.com/munati_oficial/?hl=es" target="_blank">
+    		          <img src="../images/insta.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			             INSTAGRAM
+                    </a>
+                </div>
+            <div class="col-2"></div>
+            <div class="col-4">
+                <a href="">AVISO LEGAL</a><br>
+                <a href="">SOBRE TUS DATOS</a>
+            </div>
+        </div>
+        </div>
+<!-- Footer con fondo gris fuerte y texto centrado -->
+        <footer>
+            <p>2024 - MUSEO NACIONAL DEL TÍTERE. DISEÑADO POR ALKM
+            </p>
+        </footer>
+        <script>
+        (function() {
+            //a partir de que punto del scroll vertical de la ventana mostrará el botón
+            const ishow = 115
+            const $divtop = document.getElementById("div-totop")
+            window.addEventListener("scroll", function() {
+            if(document.documentElement.scrollTop > ishow){
+            $divtop.style.display = "inherit"
+            }
+            else {
+            $divtop.style.display = "none"
+            }
+        })
+        })()
+    </script> 
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

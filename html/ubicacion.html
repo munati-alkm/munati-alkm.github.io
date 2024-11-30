@@ -1,0 +1,120 @@
+<html lang="es">
+	
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MUNATI: Museo del Títere</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/extra.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!-- Bootstrap -->
+	
+  </head>
+  <body>
+      
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-custom" id="navbar">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preseas.html">PRESEAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">UBICACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="directorio.html">DIRECTORIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+    <!-- Flecha para volver al inicio -->
+<div id="div-totop" class="cmn-divfloat">
+  <a href="#" class="btn btn-primary cmn-btncircle">
+      <i class="fa fa-arrow-up"></i>
+  </a>
+  </div>
+
+    <!-- Header -->
+    <div class="text-center py-5 header animate__animated animate__fadeInLeft">
+        <!-- Imagen de logo centrada -->
+        <img src="../images/logomunati.png" alt="Logo del Museo" class="img-fluid"> 
+        <!-- Texto debajo de la imagen -->
+        <h1>MUSEO NACIONAL DEL TÍTERE</h1>
+        <p class="text-muted">MUNATI - HUAMANTLA - TLAXCALA - MÉXICO</p>
+    </div>
+    
+    <!-- Sección Historia -->
+    <div class="container-fluid historia">
+        <div class="row comun">
+                <h2 class="encontrar">Encuéntranos en:</h2>
+                <p class="textoencontrar">Parque Juárez N°15, Centro, 90500 Huamantla, Tlax. De martes a domingo, de 10:00 a 17:00 horas.</p>
+        </div>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.2940948915216!2d-97.92595812542947!3d19.31304054448948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cffc8587ba470b%3A0xd58c097e2fd9b9ae!2sMuseo%20Nacional%20del%20T%C3%ADtere.!5e0!3m2!1ses-419!2smx!4v1732866801610!5m2!1ses-419!2smx" width="100%" height="450"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+        <!-- Sección Redes Sociales -->
+        <div class="container-fluid rr">
+            <h2>NUESTRAS REDES SOCIALES</h2>
+            <div class="row comun">
+                <div class="col-6">
+                    <a href="https://www.facebook.com/museonacionaldeltitere/?locale=es_LA" target="_blank">
+    		          <img src="../images/fb.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			             FACEBOOK
+  		            </a><br>
+                    <a href="https://www.instagram.com/munati_oficial/?hl=es" target="_blank">
+    		          <img src="../images/insta.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			             INSTAGRAM
+                    </a>
+                </div>
+            <div class="col-2"></div>
+            <div class="col-4">
+                <a href="">AVISO LEGAL</a><br>
+                <a href="">SOBRE TUS DATOS</a>
+            </div>
+        </div>
+        </div>
+<!-- Footer con fondo gris fuerte y texto centrado -->
+        <footer>
+            <p>2024 - MUSEO NACIONAL DEL TÍTERE. DISEÑADO POR ALKM
+            </p>
+        </footer>
+        <script>
+        (function() {
+            //a partir de que punto del scroll vertical de la ventana mostrará el botón
+            const ishow = 115
+            const $divtop = document.getElementById("div-totop")
+            window.addEventListener("scroll", function() {
+            if(document.documentElement.scrollTop > ishow){
+            $divtop.style.display = "inherit"
+            }
+            else {
+            $divtop.style.display = "none"
+            }
+        })
+        })()
+        </script> 
+      
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

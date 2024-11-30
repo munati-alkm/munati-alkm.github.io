@@ -1,0 +1,72 @@
+#preseas{
+    margin: 0 8% 2.5em 8%;
+}
+
+.unidad{
+    border: 1.5px solid #5D5D5D;
+    transition: all 0.4s ease-in-out;
+}
+
+.unidad:hover{
+    background-color: #3A017B;
+}
+
+#preseas a{
+    text-decoration: none;
+    color: #5D5D5D;
+}
+
+#preseas a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#preseas h2{
+    color: #3A017B;
+    font-size: 12vmin;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#preseas h3{
+    color: #3A017B;
+    font-size: 4.5vmin;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.unidad h4{
+    font-size: 8vmin;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.unidad h5{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vmin;
+}
+
+.unidad p{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#preseas .row{
+    margin-top: 1px;
+}
+
+.animate__animated.animate__fadeInLeft{
+    --animate-duration: 1.5s;
+}
+
+.toast{
+    background-color: #3A017B;
+}

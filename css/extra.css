@@ -1,0 +1,47 @@
+/* Ubicación*/
+.encontrar{
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+    font-size: 6vmin;
+    color: #3A017B;
+    font-weight: 500;
+}
+.textoencontrar {
+	text-align: center;
+	font-family: "Fira Sans", sans-serif;
+    font-size: 3vmin;
+    color: #5D5D5D;
+    font-weight: 400;
+}
+.mapa {
+    justify-content: center;
+    display: inline-block;
+    margin: 0 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    top: auto;
+}
+
+/* Directorio*/
+.nombres {
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+    font-size: 5vmin;
+    color: #3A017B;
+    font-weight: 500;
+}
+.cuadroborde {
+	border-style:none;
+}
+.ubicontenedor {
+	justify-content: center;
+    margin: 0 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}

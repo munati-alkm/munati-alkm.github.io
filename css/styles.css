@@ -1,0 +1,304 @@
+body{
+    display:grid;
+}
+/* ESTOS SON LOS ESTILOS DE TITULOS Y TEXTOS */
+.par h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 6vmin;
+    color: #3A017B;
+    font-weight: 500;
+}
+.par h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 5vmin;
+    color: #6a4c9c;
+    font-weight: 500;
+}
+.par p{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 3vmin;
+    color: #5D5D5D; /* Texto gris para la ubicación */
+    font-weight: 400;
+}
+/* ESTO ES PARA QUE QUEDE ESPACIADO EL CONTENIDO EN MEDIO */
+.comun{
+    margin: 0 8% 0 8%;
+}
+
+.historia, .museo, .preseas, .rr{
+    padding: 3em 0 3em 0;
+}
+
+/* Estilo para el navbar */
+.navbar-custom{
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: medium;
+    font-size: 2.8vmin; /* Tamaño de la fuente del logo */
+    background-color: #3A017B; /* Azul marino-morado */
+    padding: 1em 0; /* Aumenta la altura del navbar */
+}
+.navbar-custom .navbar-nav {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+}
+.navbar-custom .navbar-nav .nav-link {
+    margin: 0 2px 0 2px;
+    color: white; /* Texto blanco */
+    transition: all 0.3s; /* Animación suave */
+    border-radius: 0.8em; /* Puntas redondeadas para parecer óvalos */
+    letter-spacing: 1px;    
+}
+/* Efecto hover */
+.navbar-custom .navbar-nav .nav-link:hover {
+    background-color: white;
+    color: #6a4c9c; /* Texto morado */
+}
+/* Botón activo */
+.navbar-custom .navbar-nav .nav-link.active {
+    background-color: white;
+    color: #6a4c9c; /* Texto morado cuando está activo */
+    font-weight: 600;
+}
+/* Estilo para el botón navbar desplegable */
+.navbar-toggler{
+    background-color: white;
+}
+
+/* Estilo para el botón de Volver al Inicio */
+.cmn-divfloat {
+    position: fixed !important;
+    bottom: 45px;
+    right: 15px;
+    display: none;
+}
+.cmn-btncircle {
+    width: 3em !important;
+    height: 2.4em !important;
+    border: 2px solid gray;
+    border-radius: 8px; /* Bordes redondeados para que se vea más suave */
+    color: #3A017B;
+    font-size: 1.2em;
+    text-align: center;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+.cmn-btncircle:hover {
+    background-color: #3A017B; /* Fondo morado cuando pasa el mouse */
+    color: white; /* Cambia la flecha a blanco */
+}
+
+/* ----- HEADER ----- */
+/* Estilo para la imagen del logo */
+ .header img{
+    max-width: 80%; /* Tamaño de la imagen, puedes ajustarlo */
+    height: auto;
+}
+
+/* Texto debajo de la imagen */
+.header{
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+.header h1{
+    font-size: 6vmin;
+    color: #5D5D5D;
+    margin-top: 0.5em;
+    font-weight: 500;
+}
+.header p{
+    font-size: 3vmin;
+    color: #5D5D5D; /* Texto gris para la ubicación */
+    font-weight: 300;
+}
+
+/* Ajuste de Valores */
+#valores {
+    background-color: #5D5D5D;
+    color: white;
+    padding: 3em 0 1em 0;
+}
+.textov{
+    padding: 0 2.3em 0 2.3em;
+}
+#valores h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+#valores p {
+    font-size: 2.7vmin;
+    font-style: italic;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+/* ---- Sección HISTORIA */
+.frase{
+    background-color: #5D5D5D; /* Fondo gris claro */
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 3.5vmin;
+    font-weight: 300;
+    font-style: italic;
+}
+.frase div{
+    padding: 2em 2em 0 2em;
+}
+
+/* ----Sección Actividades----- */
+.museo{
+    background-color: #efe0ff;
+}
+/* Ajustar las imágenes del carrusel */
+.carousel-inner img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover; /* Hace que las imágenes se adapten sin distorsionarse */
+}
+/* Estilo para los indicadores del carrusel (los puntos) */
+.carousel-indicators button {
+    background-color: #000;  /* Color de los puntos (negro) */
+    border-color: transparent;  /* Sin bordes */
+}
+.carousel-indicators .active {
+    background-color: #007bff;  /* Color del punto activo (azul) */
+}
+
+/* ----- HEADER ----- */
+.preseas{
+    background-image: url(../images/treinta.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Título grande en la parte central */
+.preseas h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 7vmin;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* Subtítulo debajo del título */
+.preseas h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 12vmin;
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.preseas h3{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 4vmin;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+/* Estilo para el botón con fondo blanco y texto morado */
+.vinc{
+    text-decoration: none;
+    background-color: white;
+    color: #6a4c9c; /* Morado claro */
+    font-family: "Raleway", sans-serif;
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 3.5vmin;
+    border: 1px solid white;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 700 ;
+    border-radius: 1em;
+}
+
+.vinc:hover {
+    background-color: #3A017B;
+    color: white;
+    border: 1px solid #3A017B;
+}
+
+/* ---Sección Visita--- */
+/* Estilo para la franja con fondo de imagen */
+.visita{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ubif.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.visita div{
+    padding: 3em 16% 3em 16%;
+    text-align: center;
+}
+/* Estilo para el texto gigante en el centro */
+.visita h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 6vim; /* Tamaño de texto gigante */
+    font-weight: 500;
+    padding-bottom: 0.2em;
+}
+
+/* --Sección Redes Sociales */
+.rr{
+    background-color: #3A017B; /* Fondo morado */
+    color: white;
+    padding: 60px 0; /* Espaciado vertical */
+}
+
+/* Título en la parte central */
+.rr h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 4vim; 
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-left: 8%;
+}
+
+/* Párrafo en la parte central */
+.rr a{
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vim;
+    font-weight: 300;
+}
+
+.rr a img{
+    padding-top: 3px;
+    width: 1.2em;
+    height: auto;
+}
+
+.rr a:hover{
+    color: white;
+    font-size: 2vim;
+    font-weight: 600;
+}
+
+.rr .col-4 {
+    text-align: right;
+}
+
+/* Estilo para el footer */
+footer{
+    text-align: center;
+    background-color: #1d1d1d; /* Gris fuerte */
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+}
+footer p{
+    padding: 1em;
+}
+/* Hacer que el navbar sea completamente responsive */
+@media (max-width: 768px) {
+    .navbar-custom .navbar-nav {
+        text-align: center;
+    }
+}
